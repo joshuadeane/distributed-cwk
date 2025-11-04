@@ -1,0 +1,15 @@
+{
+  "scriptFile" : "../distributed-cwk-1.0-SNAPSHOT.jar",
+  "entryPoint" : "com.function.Task1.run",
+  "bindings" : [ {
+    "type" : "httpTrigger",
+    "direction" : "in",
+    "name" : "req",
+    "methods" : [ "GET" ],
+    "authLevel" : "FUNCTION"
+  }, {
+    "type" : "http",
+    "direction" : "out",
+    "name" : "$return"
+  } ]
+}
